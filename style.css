@@ -1,0 +1,38 @@
+:root {
+    --body-bg: azure;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: darkblue;
+    color: #ffffff;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover, button:active {
+    background-color: rgb(53, 82, 199);
+    transition: all .3s;
+}
